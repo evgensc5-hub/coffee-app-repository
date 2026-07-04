@@ -18,7 +18,6 @@ public class Coffee {
     public int getTemp() {
         return temp;
     }
-    @Override new*
 
     @Override
     public String toString() {

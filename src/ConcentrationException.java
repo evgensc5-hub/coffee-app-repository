@@ -2,7 +2,7 @@ public class ConcentrationException extends Exception{
     // props
     int c;
 
-    public TemperatureException(int c, String msg) {
+    public ConcentrationException(int c, String msg) {
         super (msg);this.c = c;
 
     }
@@ -11,4 +11,4 @@ public class ConcentrationException extends Exception{
         return c;
     }
 }
-}
+
